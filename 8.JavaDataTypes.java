@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.*;
 
 class Solution {
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
@@ -25,6 +26,8 @@ class Solution {
                 System.out.println(scan.next() + " can't be fitted anywhere.");
             }
         }
+        
         scan.close();
+        
     }
 }
