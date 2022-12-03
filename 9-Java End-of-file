@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+   public static void main(String []argh) throws InterruptedException {
+        Scanner sc = new Scanner(System.in);
+
+        int count = 0;
+        while(sc.hasNext()){
+            count++;
+            System.out.printf( "%d %s \n" ,count, sc.nextLine());
+        }
+    }
+    }
+
